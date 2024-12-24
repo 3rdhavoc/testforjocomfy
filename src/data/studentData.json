@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "class": "10th Grade",
+    "gender": "Male",
+    "medicalCondition": [
+      {"description": "Asthma"},
+      {"description": "Asthma"}
+    ],
+    "homeAddress": "EG11111",
+
+    "dateOfBirth": "21/09/2006",
+    "academics": {
+      "subjects": [
+        { "name": "Math", "scores": { "classwork": 90, "assignments": 85, "exams": 92 } },
+        { "name": "Science", "scores": { "classwork": 88, "assignments": 90, "exams": 91 } }
+      ]
+    },
+    "fees": {
+      "amountPaid": 500,
+      "previousTransactions":[
+        {"date": "01/04/2023", "amountPaid": "20", "transactionId": "123222A" },
+        {"date": "01/04/2023", "amountPaid": "20", "transactionId": "123222A" }
+      ]
+    },
+    "parentInfo": [
+      {"name": "Rosss cam", "phoneNumber": "021334556", "email": "rossCamm@gmail.com"}
+    ]
+    
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "class": "11th Grade",
+    "gender": "female",
+    "medicalCondition": [
+      {"description": "None"}
+    ],
+    "homeAddress": "EG4444",
+
+    "dateOfBirth": "01/09/2016",
+    "academics": {
+      "subjects": [
+        { "name": "Math", "scores": { "classwork": 80, "assignments": 82, "exams": 88 } },
+        { "name": "Science", "scores": { "classwork": 85, "assignments": 87, "exams": 89 } }
+      ]
+    },
+    "fees": {
+      "amountPaid": 500,
+      "previousTransactions":[
+        {"date": "21/04/2023", "amountPaid": "89", "transactionId": "1eeee22A" }
+      ]
+    },
+    "parentInfo": [
+      {"name": "Rosssgee", "phoneNumber": "0200000556", "email": "rossgeeem@gmail.com"}
+    ]
+  }
+]
