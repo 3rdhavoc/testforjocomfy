@@ -3,7 +3,7 @@
 
 import React from 'react';
 import TableDisplaySection, { Student } from "@/components/TableSection";
-import PageNavbar from '@/components/PageNavbar';
+//import PageNavbar from '@/components/PageNavbar';
 import SearchBar from '@/components/SearchBar';
 import NameofCurrentPage from '@/components/NameOfCurrentPage';
 import StudentCard from '@/components/StudentCard';
