@@ -85,9 +85,9 @@ const StudentCardInfo: React.FC = () => {
     <div className="col-span-2 mt-2">
       <p className="text-end pr-[2rem]">View all</p></div>
     </div> {student.parentInfo.map((contactInfo, index)=>(
-    <div className=" grid grid-cols-2 gap-4 mt-[2rem]">
+    <div className=" grid grid-cols-2 gap-4 mt-[2rem]"  key={index}>
    
-    <div className="  ml-5" key={index}>
+    <div className="  ml-5">
       
         <p className="text-[0.8rem] text-[#555753] font-medium">Contact Info</p>
         <p className="text-[0.8rem] text-[#555753] mt-[0.5rem]">Parent Info</p>
